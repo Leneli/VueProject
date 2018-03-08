@@ -1,0 +1,22 @@
+// Fonts
+/*@include fontText(
+	$family: "GothamPro",
+	$src: "../fonts/gotham-pro/"
+);*/
+
+// GLOBAL STYLES for all site
+* {
+	box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-size: 16px;
+
+	background: lavenderblush;
+}

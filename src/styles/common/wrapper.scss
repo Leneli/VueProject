@@ -1,0 +1,38 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.wrapper_bg {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header,
+.footer {
+	flex-shrink: 0;
+}
+
+.main {
+	flex: 1 0 auto;
+	overflow-x: hidden;
+}
+
+// wrapper for content grid
+.wrap-content {
+	width: 100%;
+	padding-left: calc((100% - 1140px) / 2);
+	padding-right: calc((100% - 1140px) / 2);
+
+	@include x-large {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	@include phones {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

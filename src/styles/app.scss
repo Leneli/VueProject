@@ -1,0 +1,28 @@
+// libs
+@import "normalize.css";
+
+// helpers modules
+@import "_helpers/_variables";
+@import "_helpers/fonts";
+@import "_helpers/mixins";
+@import "_helpers/media";
+@import "_helpers/global";
+@import "_helpers/helpercls";
+@import "_helpers/fix";
+
+// common styles
+@import "common/bg";
+@import "common/content";
+@import "common/form-elements";
+@import "common/grid";
+@import "common/links";
+@import "common/lists";
+@import "common/media-elements";
+@import "common/tables";
+@import "common/text";
+@import "common/titles";
+@import "common/wrapper";
+
+// blocks
+@import "blocks/global/footer";
+@import "blocks/global/header";

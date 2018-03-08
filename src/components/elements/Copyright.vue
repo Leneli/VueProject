@@ -1,7 +1,7 @@
 <template lang="pug">
 	div
-		div Azimuth is an equal opportunity employer.
-		div © Copyright Azimut {{ getYear() }}, All Rights Reserved
+		div Azimuth is an equal opportunity employer. 
+		div © Copyright Azimut {{ getYear() }}, All Rights Reserved 
 </template>
 
 <script>
